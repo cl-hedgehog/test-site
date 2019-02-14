@@ -16,7 +16,13 @@ function multiply(num1, num2){
 	return result;
 }
 */
-
+let myVariable = 'lilei and meimei';
+myVariable = 'poly';
+if(myVariable === 'poly'){
+    alert('I am a bird');
+}else{
+	alert('Are you kidding me');
+}
 var myImage = document.querySelector('img');
 myImage.onclick = function(){
 	var mySrc = myImage.getAttribute('src');
@@ -42,5 +48,5 @@ if(!localStorage.getItem('name')){
 	myHeading.textContent = 'Mozilla is cool, ' + storedName;
 }
 myButton.onclick = function(){
-	setUserName
+	setUserName();
 }
